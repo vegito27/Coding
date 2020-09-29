@@ -1,0 +1,77 @@
+git tasks
+
+
+1-create a directory named GitTask,
+2-create 3 directory inside git task(User1,User2,User3)
+-----------------------------------------------------------
+1)initialize repository EMP439
+2)create new project EMPXXTask2 .Add its remote url in repository
+3)create new file master.txt
+4)Write L1 in this file ,stage it and commit with message C1
+5)Push master branch on remote
+6)Write the following lines in master.txt
+  L2
+  L3
+7)stage and commit with message d23
+8)add brach db1 and switch 
+9)push db1
+10)write tmp1 and tmp2 in file
+11)Stage tmp1
+12) Soft Reset master branch to previous commit
+13)Using interactive staging stage L2 and commit C2 then stage L3 and commot C3
+14)Push master
+15)Checkout master.txt
+16)Delete db1 in local repository
+17)Checkout new  branch develop
+18)Create new file develop.txt in this repository
+19)Write L4 in this file,stage it,commit it with message C4 
+20)Push develop
+21)Checkout new branch b1
+22)craete file b1.txt
+23)Write L5 incomplete in this file ,stage it commit with message C5
+24)Add branch db2 and switch 
+25)Push db2
+26)Checkout b1  
+27)Modify L5 incomplete to L5 in b1.txt
+28)Stage and commit with ammend option and message C5
+29)Push b1
+30)Merge b1 into develop
+31)Delete db2 and b1 in local repository 
+32)Checkout new brach b2
+33)create File b2.txt
+34)Write L6 in this file ,stage it commit it with message C6
+35)Write L7 in this file ,stage it commit it with message C7
+36)Write L8 in this file ,stage it commit it with message C8
+37)Add branch db3 and switch 
+38)push db3
+39)Squash top 3 commits (C6,C7,C8) of b2
+40)branch b2 should be at C678
+41)push b1
+42)Merge b2 into develop
+43)Delete db3 and b2 in local repository
+44)Checkout new brach b3
+45)Create file b3.txt
+46)Write L9 in this file,stage it and commit with message C9
+47)Merge b3 into develop (Create merge Commit)
+48)Delete b3
+49)Checkout new branch b4
+50)Create file b4.txt
+51)Write "L10 part1" in this File,stage it commit it with message C10 part
+52)Write L10 in next Line ,stage it commit it with message C10 
+53)Write "L10 part2"
+54)push b4
+55)Switch to develop
+56)CherryPick C10
+57)Resolve conflict if any
+58)Stage and commit with message C10
+59)Delete b4 in local repository
+60)push develop
+
+
+
+
+
+
+
+
+
