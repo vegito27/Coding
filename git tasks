@@ -2,7 +2,7 @@ git tasks
 
 
 1-create a directory named GitTask,
-2-create 3 directory inside git task(User1,User2,User3)
+2-create 3 directory inside GitTask(User1,User2,User3)
 -----------------------------------------------------------
 1)initialize repository EMP439
 2)create new project EMPXXTask2 .Add its remote url in repository

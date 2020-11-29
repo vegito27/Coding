@@ -15,9 +15,6 @@ for (int ptr = 0; ptr < sizeof(arr)/sizeof(arr[0]);ptr++ )
 
 		start++;
 	}
-
-
-
 }
 
 cout<<start;

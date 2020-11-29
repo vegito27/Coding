@@ -12,8 +12,6 @@ bool isPossible(int m,int n,int k,int r,vector<int> X,vector<int> Y){
 			    if(sqrt(pow(X[p]-1-i),2)+pow(Y[p]-1-j)<=r)
 			         rect[i][j]=-1;
 
-
-
 	if(rect[0][0]=-1) return false;
 
 	vector<vector<int>> que;
@@ -26,13 +24,4 @@ bool isPossible(int m,int n,int k,int r,vector<int> X,vector<int> Y){
 
 		
 	}
-
-
-
-	
-	
-
-
-
-
 }
